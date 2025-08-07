@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <SplitText
-      text="Hello, GSAP!"
+      text="Hello, GSAP!f"
       className="text-2xl font-semibold text-center"
       delay={100}
       duration={0.6}
