@@ -11,7 +11,8 @@ export default async  function Docs({
       </div>
     );
   } else if (slug?.length === 1) {
-    <div>{slug[0]}的概念的文档</div>;
+    return(
+    <div>{slug[0]}的概念的文档</div>)
   }
   return <div>docs文档首页</div>;
 }
