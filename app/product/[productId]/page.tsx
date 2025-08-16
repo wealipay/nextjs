@@ -3,7 +3,7 @@ type Props = { params: { productId: string } };
 export const generateMetadata = async ({
   params
 }: Props): Promise<Metadata> => {
-  const productId = (await props).productId;
+  const productId = (await params).productId;
   return {
     title: `产品id ${productId}`
   };
