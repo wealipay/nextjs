@@ -1,5 +1,7 @@
-import { Metadata } from "next";
-interface Props  { params: { productId: string } };
+import type { Metadata } from "next";
+type Props = {
+  params: { productId: string };
+};
 export const generateMetadata = async ({
   params
 }: Props): Promise<Metadata> => {
