@@ -8,7 +8,7 @@ const font = Ma_Shan_Zheng({
   subsets: ["latin"],
   variable:"--font-mashan",
   display: "swap",
-  proload: true
+  preload: true
 });
 export const metadata: Metadata = {
   title: {
