@@ -1,4 +1,4 @@
 import React from "react";
 export default function Home() {
-  return <div>这是主页上</div>;
+  return <div className="flex justify-center items-center">王</div>;
 }
