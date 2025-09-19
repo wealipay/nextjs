@@ -6,7 +6,7 @@ import { Ma_Shan_Zheng } from "next/font/google";
 const font = Ma_Shan_Zheng({
   weight: "400",
   subsets: ["latin"],
-  variable:"--font-mashan",
+  variable: "--font-mashan",
   display: "swap",
   preload: true
 });
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`{font.className} bg-background`}>
+    <html lang="zh-CN" className={`${font.className} bg-background`}>
       <body>{children}</body>
     </html>
   );
