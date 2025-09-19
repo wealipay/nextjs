@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/assets/css/globals.css";
 import { Ma_Shan_Zheng } from "next/font/google";
 
 const font = Ma_Shan_Zheng({
