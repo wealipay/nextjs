@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import hao from "@/assets/images/hao.png";
@@ -19,10 +18,10 @@ export default function Home() {
         </button>
         <div className="flex items-center my-6">
           <div className="flex-grow h-px bg-border"></div>
-          <span className="mx-4 text-md text-primary-text"></span>
+          <span className="mx-4 text-md text-primary-text">或</span>
           <div className="flex-grow h-px bg-border"></div>
-          
         </div>
+        <input type="text" placeholder="手机,账号,邮箱" className="w-full bg-background outline-none rounded-md p-4 placeholder-secondary-text border border-border"/>
       </div>
     </div>
   );
