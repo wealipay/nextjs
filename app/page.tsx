@@ -16,7 +16,7 @@ export default function Home() {
           />
           <span>登陆</span>
         </button>
-        <div className="my-6">
+        <div className="flex justify-center items-center my-6">
           <div className="flex-grow h-px bg-border"></div>
           <span className="mx-4 text-md text-primary-text">或</span>
           <div className="flex-grow h-px bg-border"></div>
