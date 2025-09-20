@@ -4,7 +4,7 @@ import hao from "@/assets/images/hao.png";
 export default function Home() {
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="max-w-[300px] w-[95%] py-12 rounded-lg">
+      <div className="flex justify-center items-center max-w-[300px] w-[95%] py-12 rounded-lg">
         <h2 className="font-bold text-3xl text-primary-text">选择登陆方式</h2>
         <button className="bg-white w-full mt-8 h-10 flex justify-center items-center gap-2 cursor-pointer hover:bg-gray-200 rounded-full">
           <Image
@@ -21,7 +21,11 @@ export default function Home() {
           <span className="mx-4 text-md text-primary-text">或</span>
           <div className="flex-grow h-px bg-border"></div>
         </div>
-        <input type="text" placeholder="手机,账号,邮箱" className="w-full bg-background outline-none rounded-md p-4 placeholder-secondary-text border border-border"/>
+        <input
+          type="text"
+          placeholder="手机，账号，邮箱"
+          className="w-full bg-background outline-none rounded-md p-4 placeholder-secondary-text border border-border"
+        />
       </div>
     </div>
   );
