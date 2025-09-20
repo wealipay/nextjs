@@ -14,9 +14,9 @@ export default function Home() {
             height={470}
             className="w-6 h-6 object-cover"
           />
-          <span>登陆.</span>
+          <span>登陆</span>
         </button>
-        <div className="flex my-6">
+        <div className="my-6">
           <div className="flex-grow h-px bg-border"></div>
           <span className="mx-4 text-md text-primary-text">或</span>
           <div className="flex-grow h-px bg-border"></div>
