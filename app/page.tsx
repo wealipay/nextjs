@@ -3,7 +3,7 @@ import Image from "next/image";
 import hao from "@/assets/images/hao.png";
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen overflow-hidden flex justify-center items-center">
       <div className="max-w-[300px] w-[95%] py-12 rounded-lg">
         <h2 className="font-bold text-center text-3xl text-primary-text">
           选择登陆方式
