@@ -26,6 +26,9 @@ export default function Home() {
           placeholder="手机，账号，邮箱"
           className="w-full bg-background outline-none rounded-md p-4 placeholder-secondary-text border border-border"
         />
+        <button className="flex justify-center items-center w-full font-medium rounded-full">
+          提交
+        </button>
       </div>
     </div>
   );
