@@ -25,10 +25,10 @@ export default function Home() {
         </div>
         <input
           type="text"
-          placeholder="手机，账号，邮箱"
+          placeholder="手机，账号，邮箱."
           className="w-full bg-background outline-none rounded-md p-4 placeholder-secondary-text text-white border border-border"
         />
-        <button className="flex justify-center items-center w-full font-semibold rounded-full h-10 mt-8 gap-2 cursor-pointer hover:bg-amber-100">
+        <button className="flex justify-center items-center w-full font-semibold rounded-full h-10 mt-8 gap-2 cursor-pointer text-black bg-white hover:bg-amber-100">
           提交
         </button>
       </div>
