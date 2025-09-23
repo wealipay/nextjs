@@ -31,6 +31,9 @@ export default function Home() {
         <button className="flex justify-center items-center w-full font-semibold rounded-full h-10 mt-8 gap-2 cursor-pointer text-black bg-white hover:bg-amber-100">
           提交
         </button>
+        <button className="flex justify-center items-center w-full font-semibold rounded-full h-10 mt-8 gap-2 border border-border cursor-pointer text-white bg-black hover:text-black">
+          忘记密码
+        </button>
       </div>
     </div>
   );
